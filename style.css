@@ -1,0 +1,54 @@
+/* General styling */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+body {
+    font-family: "Outfit", sans-serif;
+    background-color: hsl(212, 45%, 89%);
+}
+
+
+/* Main style */
+
+.card-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 480px;
+    width: 320px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 0;
+}
+
+.card-container img {
+    margin-top: -128px;
+    margin-left: -128px;
+    transform: scale(50%);
+    border-radius: 20px;
+}
+
+.card-title {
+    margin-top: -145px;
+    padding: 0 30px;
+}
+
+.card-title p {
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.card-subtitle {
+    margin-top: -5px;
+    padding: 0 30px;
+}
+
+.card-subtitle {
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+}
